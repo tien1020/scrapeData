@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tien Nguyen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Tien Nguyen<span class="text-primary"></span> </a></h1>
+          </div>
+
+         
+
+
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+     
+    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          
+          <div class="col-md-8 mt-lg-5 text-center">
+            <h1 class="text-uppercase" data-aos="fade-up">Welcome</h1>
+            <form id="search-form">
+              <label for="search-input">Search courses here:</label>
+              <div class="form-group">
+                  <input type="text" class="form-control" id="searchInput"
+                      placeholder="Example: &quot;HTML&quot; ">
+              </div>
+              <br>
+              <br>
+              <a class="btn-outline-info btn eventButton" id="restaurant-submit-btn" type="submit" style="background-color:#0fffc1; color:black"
+                  value="Find Course" >Find Course</a>
+                  
+          </form>
+          <div class="col-md-8 mt-lg-5 text-center">
+          
+          </div>
+
+          
+          </div>
+            
+        </div>
+      </div>
+    </div>  
+
+    </footer>
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  
+  <script src="js/main.js"></script>
+  <script>
+    var courses = [
+      {
+        courseId: "CS400",
+        title: "Intro to Relational Databases",
+        description: "Relational databases are a powerful tool used throughout the industry. Learn the basics of SQL and how to connect your Python code to a relational database.",
+        imgURL: "https://www.coursebuffet.com/course_images/subjects/computer-science.jpg",
+        URL: "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+
+      },
+      {
+        courseId: "CS101",
+        title: "Introduction to Computer Science",
+        description: "Introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course S50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML.",
+        imgURL: "https://www.coursebuffet.com/course_images/default/9.jpg",
+        URL: "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
+      },
+      {
+        courseId: "CS295",
+        title:"Algorithms: Design and Analysis, Part 1",
+        description: "In this course you will learn several fundamental principles of algorithm design: divide-and-conquer methods, graph algorithms, practical data structures, randomized algorithms, and more.",
+        imgURL: "https://www.coursebuffet.com/course_images/coursera/algs4partI.png",
+        URL: "https://www.coursera.org/course/algo",
+      },
+      {
+        courseId: "CS286",
+        title: "Web Development",
+        description: "Starting from the basics of how the web works, this class will walk you through everything you need to know to build your own blog application and scale it to support large numbers of users.",
+        imgURL: "https://www.coursebuffet.com/course_images/coursera/webapplications.png",
+        URL: "http://www.udacity.com/course/cs253",
+      },
+      {
+        courseId: "CS101",
+        title: "Programming for Everybody (Python)",
+        description: "This course aims to teach everyone to learn the basics of programming computers using Python. The course has no pre-requisites and avoids all but the simplest mathematics. Anyone with moderate computer experience should be able to master the materials in this course.",
+        imgURL: "https://www.coursebuffet.com/course_images/udacity/ud036.jpg",
+        URL: "https://www.coursera.org/course/pythonlearn"
+      }
+    ]
+
+  </script>
+    
+  </body>
+</html>
